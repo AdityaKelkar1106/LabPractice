@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <h1>Registration form</h1>
+</head>
+<body style = "background-color: grey;">
+  <form action="example.php" method="POST">
+   <label for="fname">First name: </label>
+   <input type="text" id="fname" placeholder="Enter your first name"> <br> <br>
+   <label for="lname">Last name: </label>
+   <input type="text" id="lname" placeholder="Enter your last name"> <br> <br>
+   <label for="Address">Address: </label>
+   <textarea name="address"></textarea> <br> <br>
+   <label for="grade">Select your grade: </label>
+  <select id="grade" name="grade">
+    <option value="FY">FY</option>
+    <option value="SY">SY</option>
+    <option value="TY">TY</option>
+    <option value="Final Year">Final Year</option>
+  </select><br><br>
+  <label for="mobileno">Enter your mobile number </label> 
+  <input type="text" id="mobileno" placeholder="Enter your mobile number"> <br><br>
+  <label for="gender">Choose your gender: </label>
+  <input type="radio" id="male" name="name" value="Male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="name" value="female">
+  <label for="male">Female</label>
+  <input type="radio" id="other" name="name" value="Other">
+  <label for="male">Other</label><br><br>
+  <label for="event">Event: </label>
+  <select id="event" name="event">
+    <option value="Dance">Dance</option>
+    <option value="Drawing">Drawing</option>
+    <option value="Drama">Drama</option>
+    <option value="Hackathon">Hackathon</option>
+  </select><br><br>
+  <button type="submit" form="form1" value="Submit">Submit</button>
+  <button type="reset" form="form1" value="Reset">Reset</button>
+ </form>
+</body>
+
+
+</html>
